@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 HUB — сайт для любителей Counter-Strike 2</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="#/" class="logo">CS2<span>HUB</span></a>
+    <nav class="nav">
+      <a href="#/" data-nav="/">Главная</a>
+      <a href="#/maps" data-nav="/maps">Карты</a>
+      <a href="#/weapons" data-nav="/weapons">Оружие</a>
+      <a href="#/leaderboard" data-nav="/leaderboard">Рейтинг</a>
+    </nav>
+    <div id="auth-area" class="auth-area"></div>
+  </div>
+</header>
+
+<main id="app" class="container"></main>
+
+<footer class="footer">
+  <div class="container">
+    <p>CS2 HUB — фанатский проект. Counter-Strike 2 — торговая марка Valve Corporation.</p>
+    <p class="muted">Не является официальным продуктом.</p>
+  </div>
+</footer>
+
+<div id="modal-root"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
